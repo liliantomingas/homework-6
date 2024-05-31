@@ -13,7 +13,4 @@ public class Calculator {
     public boolean isGreater(int firstInputValue, int secondInputValue){
         return firstInputValue > secondInputValue;
     }
-
-
-
 }

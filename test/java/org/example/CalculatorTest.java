@@ -15,28 +15,28 @@ public class CalculatorTest {
     }
 
     @Test
-    public void addTwoPositiveValues(){
+    public void addingTwoPositiveValues(){
         Calculator calculatorInstance = new Calculator();
         double actualValue = calculatorInstance.addTwoValues(3, 4);
         assertEquals(7, actualValue);
     }
 
     @Test
-    public void addTwoNegativeValues(){
+    public void addingTwoNegativeValues(){
         Calculator calculatorInstance = new Calculator();
         double actualValue = calculatorInstance.addTwoValues(-3, -4);
         assertEquals(-7, actualValue);
     }
 
     @Test
-    public void subtractTwoPositiveValues(){
+    public void subtractingTwoPositiveValues(){
         Calculator calculatorInstance = new Calculator();
         int actualValue = calculatorInstance.subtractTwoIntegerValues(5, 2);
         assertEquals(3, actualValue);
     }
 
     @Test
-    public void subtractTwoNegativeValues(){
+    public void subtractingTwoNegativeValues(){
         Calculator calculatorInstance = new Calculator();
         int actualValue = calculatorInstance.subtractTwoIntegerValues(-5, -2);
         assertEquals(-3, actualValue);

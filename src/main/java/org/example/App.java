@@ -13,6 +13,6 @@ public class App
         Calculator calculator = new Calculator();
 
         // call method
-        System.out.println( "Run calculator: "  + calculator.calculateSumOfTwoIntegerValues(5, 0));
+       // System.out.println( "Run calculator: "  + calculator.calculateSumOfTwoIntegerValues(5, 0));
     }
 }
